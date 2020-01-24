@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d353b2-99eb-436d-a057-0289f1b1bfa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteties/actors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteties/box_office.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteties/directors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteties/genres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteties/movies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enteties/studio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal/box_office.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal/directors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal/genres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal/movies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal/studio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/database.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/enteties/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/actors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/actors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/actors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/box_office.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/box_office.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/directors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/directors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/genres.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/genres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/studio.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/studio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
