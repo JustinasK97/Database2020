@@ -18,9 +18,9 @@ create_movies_table()
 
 def create_movie(movie):
         query = "INSERT INTO movies VALUES (?, ?, ?, ?, ?, ?, ?)"
-        params = (movie.movie_id, movie.movie_title, movie.release_date, movie.rating, movie.box_office_name, movie.studio_name)
+        params = (movie.movie_id, movie.movie_title, movie.release_date, movie.rating, movie.genre, movie.box_office_name, movie.studio_name)
         query_database(query, params)
 
-movie1 = movie(None, "First Movie", 2012, 8.4, "Profit", "Dalala")
+movie1 = (None, "First Movie", "")
 
-# create_movie(movie1)
+create_movie(movie1)
