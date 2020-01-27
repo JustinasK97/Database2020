@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67d353b2-99eb-436d-a057-0289f1b1bfa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modal/movies.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modal/actors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/actors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modal/box_office.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/box_office.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modal/directors.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/directors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modal/genres.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/genres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modal/movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/modal/movies.py" afterDir="false" />
@@ -27,8 +29,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WpWVnFzQze2BHukkGG0wdFcdfR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Db" />
   </component>
@@ -43,6 +48,56 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.movies">
+    <configuration name="box_office" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movies_db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modal/box_office.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="movies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movies_db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modal" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modal/movies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.movies" />
+        <item itemvalue="Python.box_office" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,10 +117,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-from modal.directors import directors
+from modal.database import create_table_database
 
 def create_directors_table():
 
@@ -6,7 +6,7 @@ def create_directors_table():
                     director_id INTEGER PRIMARY KEY AUTOINCREMENT,
                    director_name TEXT)
                  """
+        create_table_database(query)
 
-        cursor.execute(query)
 
 create_directors_table()

@@ -1,4 +1,4 @@
-from modal.studio import studio
+from modal.database import create_table_database
 
 def create_studio_table():
 
@@ -6,7 +6,6 @@ def create_studio_table():
                     studio_id INTEGER PRIMARY KEY AUTOINCREMENT,
                     studio_name TEXT)
                  """
+        create_table_database(query)
 
-        cursor.execute(query)
-
-    create_studio_table()
+create_studio_table()

@@ -1,4 +1,4 @@
-from modal.genres import genres
+from modal.database import create_table_database
 
 def create_genres_table():
 
@@ -7,6 +7,6 @@ def create_genres_table():
                     genre_title TEXT)
                  """
 
-        cursor.execute(query)
+        create_table_database(query)
 
 create_genres_table()

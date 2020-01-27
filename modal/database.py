@@ -9,16 +9,28 @@ def open_connection():
 def close_connection(connection, cursor):
     connection.close()
 
-def db_query(query, params=None):
+def query_database(query, params=None):
     try:
         connection, cursor = open_connection()
         if params:
-            cursor.execute(query)
+            cursor.execute(query, params)
             connection.commit()
         else:
-            for i in cursor.execute(query):
-                print(i)
-    except sqlite3.DatabaseError as error:
-       print(error)
+            for row in cursor.execute(query):
+                print(row)
+
+    except sqlite3.DataError as error:
+        print(error)
     finally:
-        close_connection(connection, cursor)
+        connection.close()
+
+
+def create_table_database(query):
+    try:
+        connection, cursor = open_connection()
+        cursor.execute(query)
+        connection.commit()
+    except sqlite3.DataError as error:
+        print(error)
+    finally:
+        connection.close()

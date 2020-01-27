@@ -1,12 +1,11 @@
-from modal.box_office import box_office
+from modal.database import create_table_database
 
-def create_box_office_table():
 
-        query =  """CREATE TABLE IF NOT EXIST box_office(
-                    box_office_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    box_office_name TEXT)
-                 """
+def create_box_offices_table():
+    query = """CREATE TABLE IF NOT EXISTS box_offices (
+                        boxofficeId INTEGER PRIMARY KEY AUTOINCREMENT,
+                        name TEXT)"""
+    create_table_database(query)
 
-        cursor.execute(query)
 
-create_box_office_table()
+create_box_offices_table()

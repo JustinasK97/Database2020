@@ -1,8 +1,9 @@
-from modal.movies import movies
+import sys
+from modal.database import create_table_database
 
 def create_movies_table():
 
-        query =  """CREATE TABLE IF NOT EXIST movies(
+        query = """CREATE TABLE IF NOT EXIST movies(
                     movie_id INTEGER PRIMARY KEY AUTOINCREMENT,
                     movie_title TEXT UNIQUE,
                     release_date TEXT,
@@ -12,6 +13,6 @@ def create_movies_table():
                     studio_name TEXT UNIQUE)
                  """
 
-        cursor.execute(query)
+        create_table_database(query)
 
 create_movies_table()
