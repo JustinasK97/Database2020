@@ -13,16 +13,16 @@ def query_database(query, params=None):
     try:
         connection, cursor = open_connection()
         if params:
-            cursor.execute(query, params)
+            cursor.execute(query)
             connection.commit()
         else:
             for row in cursor.execute(query):
                 print(row)
 
-    except sqlite3.DataError as error:
+    except sqlite3.DatabaseError as error:
         print(error)
     finally:
-        connection.close()
+        close_connection(connection, cursor)
 
 
 def create_table_database(query):
@@ -30,7 +30,7 @@ def create_table_database(query):
         connection, cursor = open_connection()
         cursor.execute(query)
         connection.commit()
-    except sqlite3.DataError as error:
+    except sqlite3.DatabaseError as error:
         print(error)
     finally:
-        connection.close()
+        close_connection(connection, cursor)

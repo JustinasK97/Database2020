@@ -6,14 +6,14 @@ def create_actors_table():
                     actor_id INTEGER PRIMARY KEY AUTOINCREMENT,
                     actor_name TEXT)
                  """
-create_table_database(query)
+        create_table_database(query)
 
 
 def create_actors_movies_table():
         query = """CREATE TABLE IF NOT EXISTS actors_movies (
                                 actors_movies_Id INTEGER PRIMARY KEY AUTOINCREMENT,
-                                actorsId  FOREIGN KEY (actorsId) REFERENCES actors(actorsId),
-                                moviesId FOREIGN KEY (moviesId) REFERENCES movies(moviesId))"""
+                                actors_id  FOREIGN KEY (actors_id) REFERENCES actors(actors_id),
+                                movies_id FOREIGN KEY (movies_id) REFERENCES movies(movies_id))"""
         create_table_database(query)
 
 
