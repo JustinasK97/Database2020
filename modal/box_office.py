@@ -22,7 +22,7 @@ def get_box_office():
 
 def update_box_office(box_office):
     query = "UPDATE box_offices SET sales = ? WHERE box_office_id = ?"
-    params = (box_office.gross, box_office.box_office_id)
+    params = (box_office.sales, box_office.box_office_id)
     query_database(query, params)
 
 def delete_box_offices_table(box_office_id):
