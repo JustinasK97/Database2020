@@ -7,13 +7,14 @@ def open_connection():
 
 
 def close_connection(connection, cursor):
+    cursor.close()
     connection.close()
 
 def query_database(query, params=None):
     try:
         connection, cursor = open_connection()
         if params:
-            cursor.execute(query)
+            cursor.execute(query, params)
             connection.commit()
         else:
             for row in cursor.execute(query):

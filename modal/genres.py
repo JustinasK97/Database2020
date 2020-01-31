@@ -1,4 +1,4 @@
-from modal.database import create_table_database
+from modal.database import create_table_database, query_database
 
 def create_genres_table():
 
